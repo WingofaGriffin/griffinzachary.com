@@ -1,0 +1,71 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Portfolio">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Talks and Videos</div>
+  </div>
+
+  <HorizontalCard
+    title="BabylonJS Metaverse Talk"
+    img="https://i.ytimg.com/an_webp/WLu6NKYqFQs/mqdefault_6s.webp?du=3000&sqp=CMjq1p4G&rs=AOn4CLBfTwrQfRsKLNdmw7rJuuEKUApaAA"
+    desc="At Conf42 JS, XtremeJS, JavaScript Global Summit"
+    url="https://www.youtube.com/watch?v=WLu6NKYqFQs"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Using Low-Latency Streaming REST API + Postman with Dolby.io "
+    img="https://i.ytimg.com/an_webp/S9wE1PLCJmE/mqdefault_6s.webp?du=3000&sqp=CPLr1p4G&rs=AOn4CLDrh8jdZvOfK-_e749howsRmzpzSw"
+    desc="Live Stream with Ian Douglas at Postman"
+    url="https://www.youtube.com/watch?v=S9wE1PLCJmE"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Audio and Video with Dolby APIs and Postman"
+    img="https://i.ytimg.com/an_webp/2XwTKlFbSAY/mqdefault_6s.webp?du=3000&sqp=CM7Z1p4G&rs=AOn4CLCJ7iKPqvwGOrhFwJPKK53kBn-M5g"
+    desc="Live Stream with Ian Douglas at Postman"
+    url="https://www.youtube.com/watch?v=2XwTKlFbSAY"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Building Accessible API Specifications"
+    img="https://i.ytimg.com/vi/GNEVET4MBQQ/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLAjGwdRgF7n3PYMbFxbKUrcIi0lHg"
+    desc="At APIdays Paris, Helsinki, Interface"
+    url="https://www.youtube.com/watch?v=OJ42oDh7Jnw"
+  />
+
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Blog Posts</div>
+  </div>
+
+  <HorizontalCard
+    title="Dolby.io Blogs"
+    img="https://dolby.io/wp-content/uploads/2022/09/Dolby.io_Communications-Monitor_API_Webhooks-2.jpg"
+    desc="Collection of blog posts I wrote for Dolby Laboratories."
+    url="https://dolby.io/blog/author/gsolo/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Pridebot"
+    img="https://transposit.imgix.net/img/2019.06.28e.png?auto=format&ch=Width,DPR&q=95&w=784?dpr=1.5"
+    desc="Twilio chat bot blog on locating nearest pride events. Made while at Transposit."
+    url="https://web.archive.org/web/20200305033928/https://www.transposit.com/blog/2019.06.28-pridebot/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Datadog x Twilio"
+    img="https://imgix.datadoghq.com/img/blog/send-alerts-sms-customizable-webhooks-twilio/twilio_integration_201222_FINAL.png?w=1920&auto=format&q=80&fit=max&lossless=1&dpr=2"
+    desc="Tutorial on integrating Datadog with Twilio, made while at Datadog."
+    url="https://www.datadoghq.com/blog/send-alerts-sms-customizable-webhooks-twilio/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Dev.to"
+    img="https://camo.githubusercontent.com/583a3488209bd62b2ee7985cd8b55a27b44c79d66a2109782d280a31976851a9/68747470733a2f2f74686570726163746963616c6465762e73332e616d617a6f6e6177732e636f6d2f692f726f3335333862793362326675706273363373722e706e67"
+    desc="Collection of other misc blogs on dev.to."
+    url="https://dev.to/wingofagriffin"
+  />
+</BaseLayout>

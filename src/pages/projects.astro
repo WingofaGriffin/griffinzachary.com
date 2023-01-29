@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Projects">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
+  </div>
+
+  <HorizontalCard
+    title="EmuDeck"
+    img="https://www.emudeck.com/img/emulators.jpg"
+    desc="Active Contributor to Steam Deck project used by thousands of active users."
+    url="https://github.com/dragoonDorise/EmuDeck"
+    badge="FOSS"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="docs.dolby.io"
+    img="/dolbyio.png"
+    desc="Maintaining HTML and CSS of documentation website."
+    url="http://docs.dolby.io/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Arch Linux AUR Maintainer"
+    img="https://wiki.manjaro.org/images/3/35/Pamac-gtk-main.png"
+    desc="Maintain a number of packages for the Arch User Repository."
+    url="https://github.com/WingofaGriffin/arch-pkgbuilds"
+    badge="FOSS"
+  />
+</BaseLayout>
