@@ -1,22 +1,4 @@
 ---
-<<<<<<< HEAD
-import BaseHead from "../components/BaseHead.astro";
-import BaseLayout from "./BaseLayout.astro";
-
-export interface Props {
-  content: {
-    title: string;
-    description: string;
-    pubDate?: string;
-    updatedDate?: string;
-    heroImage?: string;
-  };
-}
-
-const {
-  content: { title, description, pubDate, updatedDate, heroImage }
-} = Astro.props;
-=======
 import { BlogSchema } from "../content/config";
 import BaseLayout from "./BaseLayout.astro";
 import dayjs from "dayjs";
@@ -29,17 +11,11 @@ const { title, description, pubDate, updatedDate, heroImage, badge } =
 dayjs.extend(localizedFormat);
 const displayDate = dayjs(pubDate).format("ll");
 import { Image } from "@astrojs/image/components";
->>>>>>> template/main
 ---
 
 <BaseLayout title={title} description={description} image={heroImage}>
   <main class="md:flex md:justify-center">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-<<<<<<< HEAD
-      {heroImage && <img src={heroImage} alt={title} class="w-full mb-6" />}
-      <h1 class="title my-2 text-4xl font-bold">{title}</h1>
-      {pubDate && <time>{pubDate}</time>}
-=======
       {
         heroImage && (
         <Image
@@ -57,7 +33,6 @@ import { Image } from "@astrojs/image/components";
       {pubDate && <time>{displayDate}</time>}
       <br />
       {badge && <div class="badge badge-secondary my-1">{badge}</div>}
->>>>>>> template/main
       {
         updatedDate && (
           <div>
@@ -67,11 +42,7 @@ import { Image } from "@astrojs/image/components";
         )
       }
       <div class="divider my-2"></div>
-<<<<<<< HEAD
-        <slot />
-=======
       <slot />
->>>>>>> template/main
     </article>
   </main>
 </BaseLayout>
