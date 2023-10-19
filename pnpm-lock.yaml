@@ -118,7 +118,7 @@ packages:
     resolution: {integrity: sha512-ErCthOQF0Yt6KkvaS+v/7CM6TxztOPHJjla4cbM3fBAFsDQbCS3tvoWSMqPJtmTFiy7veQ1eC5gH58FhPe85zg==}
     dependencies:
       sitemap: 7.1.1
-      zod: 3.22.4
+      zod: 3.21.1
     dev: false
 
   /@astrojs/tailwind@5.0.1(astro@3.2.3)(tailwindcss@3.3.3):
@@ -176,7 +176,7 @@ packages:
       '@babel/helpers': 7.23.1
       '@babel/parser': 7.23.0
       '@babel/template': 7.22.15
-      '@babel/traverse': 7.23.0
+      '@babel/traverse': 7.23.2
       '@babel/types': 7.23.0
       convert-source-map: 2.0.0
       debug: 4.3.4
@@ -295,7 +295,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/template': 7.22.15
-      '@babel/traverse': 7.23.0
+      '@babel/traverse': 7.23.2
       '@babel/types': 7.23.0
     transitivePeerDependencies:
       - supports-color
@@ -351,8 +351,8 @@ packages:
       '@babel/types': 7.23.0
     dev: false
 
-  /@babel/traverse@7.23.0:
-    resolution: {integrity: sha512-t/QaEvyIoIkwzpiZ7aoSKK8kObQYeF7T2v+dazAYCb8SXtp58zEVkWW7zAnju8FNKNdr4ScAOEDmMItbyOmEYw==}
+  /@babel/traverse@7.23.2:
+    resolution: {integrity: sha512-azpe59SQ48qG6nu2CzcMLbxUudtN+dOM9kDbUqGq3HXUJRlo7i8fvPoxQUzYgLZ4cMVmuZgm8vvBpNeRhd6XSw==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.22.13
@@ -1057,7 +1057,7 @@ packages:
       '@babel/generator': 7.23.0
       '@babel/parser': 7.23.0
       '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.23.0)
-      '@babel/traverse': 7.23.0
+      '@babel/traverse': 7.23.2
       '@babel/types': 7.23.0
       '@types/babel__core': 7.20.2
       acorn: 8.10.0
@@ -1103,7 +1103,7 @@ packages:
       vitefu: 0.2.4(vite@4.4.11)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
-      zod: 3.22.4
+      zod: 3.21.1
     optionalDependencies:
       sharp: 0.32.6
     transitivePeerDependencies:
@@ -4036,8 +4036,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: false
 
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  /zod@3.21.1:
+    resolution: {integrity: sha512-+dTu2m6gmCbO9Ahm4ZBDapx2O6ZY9QSPXst2WXjcznPMwf2YNpn3RevLx4KkZp1OPW/ouFcoBtBzFz/LeY69oA==}
     dev: false
 
   /zwitch@2.0.4:
