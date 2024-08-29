@@ -1,8 +1,8 @@
 {
-  "name": "griffin.run",
+  "name": "griffinzachary.com",
   "description": "Griffin's website, built with AstroJS.",
   "type": "module",
-  "version": "3.3.1",
+  "version": "3.4.0",
   "private": true,
   "scripts": {
     "dev": "astro dev",
