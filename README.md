@@ -1,6 +1,6 @@
-# [griffin.run](griffin.run)
+# [griffinzachary.com](griffinzachary.com)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ca8896a9-c795-4385-a830-1aa01b9bded4/deploy-status)](https://app.netlify.com/sites/griffin-run/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ca8896a9-c795-4385-a830-1aa01b9bded4/deploy-status)](https://app.netlify.com/projects/griffinzachary/deploys)
 
 My personal website.
 
